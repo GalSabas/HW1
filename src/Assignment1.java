@@ -7,8 +7,7 @@ public class Assignment1 {
 		if (x <= 0 || y <= 0 || z <= 0 ) {
 			System.out.println("Invalid input!");
 		}
-		else {
-			if ((x + y < z) || (x + z < y) || (y + z < x)) {
+		else if ((x + y < z) || (x + z < y) || (y + z < x)) {
 				System.out.println("The input ("+x+", "+y+", "+z+") does not define a valid triangle!");
 			}
 			else {
@@ -24,4 +23,4 @@ public class Assignment1 {
 			}
 		}
 	}
-}
+
